@@ -1,0 +1,14 @@
+Step 2 — Identify the heuristic component to evolve
+
+- What decision needs to be made at each step? Which candidate graph should be mutated next?
+- What inputs are available at that decision point? The candidate graph’s invariants and its conjecture score.
+- What does the component return? A priority score for the candidate graph.
+- How do you measure quality of a complete solution? By the conjecture score -f(G) = y(G) - x(G); a positive score is a counterexample if the conjecture states y(G) ≤ x(G)
+
+------------------------------------------------
+
+Step 3 — Choose a template type
+
+Type : Single function
+
+
